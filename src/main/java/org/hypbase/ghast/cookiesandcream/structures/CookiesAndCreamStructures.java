@@ -46,7 +46,7 @@ public class CookiesAndCreamStructures {
 		com.google.common.collect.ImmutableMap.Builder<Structure<?>, StructureSeparationSettings> mapBuilder = ImmutableMap.<Structure<?>, StructureSeparationSettings>builder().putAll(DimensionStructuresSettings.DEFAULTS);
 		structure.forEach((s, sp) -> mapBuilder.put(s.get(), sp));
 		DimensionStructuresSettings.DEFAULTS = mapBuilder.build();
-		System.out.println("penisCat:" + DimensionStructuresSettings.DEFAULTS);
+		System.out.println("debug:" + DimensionStructuresSettings.DEFAULTS);
 		WorldGenRegistries.NOISE_GENERATOR_SETTINGS.entrySet().forEach(
 				settings -> {
 					Map<Structure<?>, StructureSeparationSettings> structureMap = settings.getValue().structureSettings().structureConfig();

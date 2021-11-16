@@ -84,7 +84,7 @@ public class DesertWellStructure extends Structure<NoFeatureConfig> {
 			
 			//this.pieces.add(new BuriedTreasure.Piece(pos));
 			this.pieces.forEach(piece -> piece.move(0, 50, 0));
-			System.out.println("penisCat2:" + this.pieces);
+			System.out.println("debug2:" + this.pieces);
 			Vector3i structureCenter = this.pieces.get(0).getBoundingBox().getCenter();
 			
 			int xOffset = pos.getX() - structureCenter.getX();
