@@ -1,0 +1,25 @@
+{
+	"name": "cookiesandcream:desertwellcustom",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 9,
+			"element": {
+				"location": "cookiesandcream:desertwell",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"location": "cookiesandcream:desertwellsecret",
+				"processors": "minecraft:empty",
+				"projection": "rigid",
+				"element_type": "minecraft:single_pool_element"
+			}
+		}
+	]
+
+}

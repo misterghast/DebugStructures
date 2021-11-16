@@ -1,0 +1,12 @@
+{
+		"type": "assemblymachines:alloying",
+		"part_a": {
+				"tag": "forge:dusts/copper"
+		},
+		"part_b": {
+				"tag": "forge:dusts/tin"
+		},
+		
+		
+	
+}
