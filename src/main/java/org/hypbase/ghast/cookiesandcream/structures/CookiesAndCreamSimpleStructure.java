@@ -27,6 +27,9 @@ import net.minecraft.world.gen.feature.structure.StructureStart;
 import net.minecraft.world.gen.feature.structure.VillageConfig;
 import net.minecraft.world.gen.feature.template.TemplateManager;
 
+
+//This class is currently unused.
+//TODO: implement it to make more structures easier.
 public class CookiesAndCreamSimpleStructure extends Structure<NoFeatureConfig> {
 	private Heightmap.Type heightmapType;
 	private boolean waterLogged;
