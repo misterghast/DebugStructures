@@ -81,7 +81,7 @@ public class AncientRuinsStructure extends Structure<NoFeatureConfig> {
 					dynRegistry, 
 					new VillageConfig(() -> dynRegistry.registryOrThrow(Registry.TEMPLATE_POOL_REGISTRY)
 					
-						.get(new ResourceLocation(CookiesAndCream.MODID, "desertwellcustom")), 
+						.get(new ResourceLocation(CookiesAndCream.MODID, "ancientruins")), 
 						10), 
 					AbstractVillagePiece::new, 
 					chunkGenerator, 

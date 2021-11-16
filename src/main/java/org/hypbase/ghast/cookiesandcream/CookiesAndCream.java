@@ -81,7 +81,7 @@ public class CookiesAndCream {
 			
 			Map<Structure<?>, StructureSeparationSettings> tempMap = new HashMap<>(serverWorld.getChunkSource().generator.getSettings().structureConfig());
 			tempMap.putIfAbsent(CookiesAndCreamStructures.RUINS.get(), DimensionStructuresSettings.DEFAULTS.get(CookiesAndCreamStructures.RUINS.get()));
-			//tempMap.putIfAbsent(CookiesAndCreamStructures.WELL.get(), DimensionStructuresSettings.DEFAULTS.get(CookiesAndCreamStructures.WELL.get()));
+			tempMap.putIfAbsent(CookiesAndCreamStructures.WELL.get(), DimensionStructuresSettings.DEFAULTS.get(CookiesAndCreamStructures.WELL.get()));
 			serverWorld.getChunkSource().generator.getSettings().structureConfig = tempMap;
 			
 		}
